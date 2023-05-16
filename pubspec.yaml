@@ -1,0 +1,277 @@
+name: uvisitfinal
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.2 <3.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+
+  firebase_core: ^2.12.0
+  cloud_firestore: ^4.7.0
+  firebase_auth: ^4.6.0
+  google_fonts: ^4.0.4
+  flutter_launcher_icons: ^0.11.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+
+flutter_icons:
+  image_path: "assets/Icons/untalangeneralhospital.jpg"
+  android: true
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  assets:
+    - assets/patient/images/n.png
+    - assets/patient/images/prescription.png
+    - assets/patient/images/image-1.png
+    - assets/patient/images/icon-user.png
+    - assets/patient/images/icon-chevron-left.png
+    - assets/patient/images/icon-calendar-check.png
+    - assets/patient/images/icon-chevron-down.png
+    - assets/patient/images/primary.png
+    - assets/patient/images/primary-VGS.png
+    - assets/patient/images/rectangle-36.png
+    - assets/patient/images/primary-uaE.png
+    - assets/patient/images/primary-xgE.png
+    - assets/patient/images/icon-user-gHc.png
+    - assets/patient/images/icon-user-uSE.png
+    - assets/patient/images/ellipse-4.png
+    - assets/patient/images/primary-214.png
+    - assets/patient/images/n-YbY.png
+    - assets/patient/images/icon-user-FXt.png
+    - assets/patient/images/vector.png
+    - assets/patient/images/icon-user-zVU.png
+    - assets/patient/images/icon-user-sUi.png
+    - assets/patient/images/ellipse-3-bg.png
+    - assets/patient/images/icon-chevron-left-xDt.png
+    - assets/patient/images/primary-Fyg.png
+    - assets/patient/images/icon-user-okJ.png
+    - assets/patient/images/ellipse-2.png
+    - assets/patient/images/primary-Vd8.png
+    - assets/patient/images/icon-user-tj8.png
+    - assets/patient/images/icon-chevron-left-bDY.png
+    - assets/patient/images/ellipse-1.png
+    - assets/patient/images/icon-chevron-right.png
+    - assets/patient/images/icon-pills.png
+    - assets/patient/images/primary-5EN.png
+    - assets/patient/images/primary-E7G.png
+    - assets/patient/images/icon-user-n8n.png
+    - assets/patient/images/icon-search.png
+    - assets/patient/images/icon-chevron-left-71x.png
+    - assets/patient/images/icon-user-jZg.png
+    - assets/patient/images/icon-chevron-right-UGN.png
+    - assets/patient/images/icon-chevron-left-2Rc.png
+    - assets/patient/images/primary-UaS.png
+    - assets/patient/images/undrawpeoplere8spw-1.png
+    - assets/patient/images/ellipse-2-aei.png
+    - assets/patient/images/primary-Ugn.png
+    - assets/patient/images/primary-65t.png
+    - assets/patient/images/icon-medical-notes.png
+    - assets/patient/images/n-bg.png
+    - assets/patient/images/primary-qki.png
+    - assets/patient/images/rectangle-50.png
+    - assets/patient/images/rectangle-46.png
+    - assets/patient/images/image-1-z4W.png
+    - assets/patient/images/undrawdoctorsp6aq-2-1.png
+    - assets/patient/images/rectangle-47.png
+    - assets/patient/images/ellipse-3.png
+    - assets/patient/images/primary-96E.png
+    - assets/patient/images/rectangle-27.png
+    - assets/patient/images/rectangle-24.png
+    - assets/patient/images/icon-chevron-left-Q22.png
+    - assets/patient/images/primary-G9L.png
+    - assets/patient/images/icon-calendar-check-4ML.png
+    - assets/patient/images/image-1-4VU.png
+    - assets/patient/images/icon-medical-notes-ohx.png
+    - assets/patient/images/ellipse-3-bg-3AN.png
+    - assets/patient/images/primary-8Bg.png
+    - assets/patient/images/primary-BSn.png
+    - assets/patient/images/icon-user-Uyc.png
+    - assets/patient/images/image-1-vUW.png
+    - assets/patient/images/primary-PWW.png
+    - assets/patient/images/vector-rVt.png
+    - assets/patient/images/primary-H9p.png
+    - assets/patient/images/icon-user-pvS.png
+    - assets/patient/images/ellipse-1-KL2.png
+    - assets/patient/images/rectangle-35.png
+    - assets/patient/images/undrawmyappregxtj-1-1.png
+    - assets/patient/images/n-RZp.png
+    - assets/patient/images/icon-chevron-left-SrA.png
+    - assets/patient/images/icon-doctor.png
+    - assets/patient/images/icon-chevron-left-C54.png
+    - assets/patient/images/icon-pills-uhx.png
+    - assets/patient/images/ellipse-3-bg-pEa.png
+    - assets/patient/images/icon-search-f7t.png
+    - assets/patient/images/n-C7p.png
+    - assets/patient/images/primary-xMt.png
+    - assets/patient/images/primary-KTL.png
+    - assets/patient/images/n-ANi.png
+    - assets/patient/images/icon-chevron-left-UeJ.png
+    - assets/patient/images/image-1-RJe.png
+    - assets/patient/images/n-aBY.png
+    - assets/patient/images/primary-nQe.png
+    - assets/patient/images/n-bg-xQ6.png
+    - assets/patient/images/n-hMg.png
+    - assets/patient/images/rectangle-49.png
+    - assets/patient/images/rectangle-61.png
+    - assets/patient/images/rectangle-61-xMk.png
+    - assets/patient/images/primary-du8.png
+    - assets/patient/images/icon-doctor-Au4.png
+    - assets/patient/images/ellipse-3-bg-jSN.png
+    - assets/patient/images/n-FUA.png
+    - assets/patient/images/undrawdoctorkw5l-1-1.png
+    - assets/patient/images/n-ZFk.png
+    - assets/patient/images/icon-chevron-down-JAS.png
+    - assets/patient/images/icon-chevron-left-K5Y.png
+    - assets/patient/images/n-qZg.png
+    - assets/patient/images/primary-bok.png
+    - assets/patient/images/rectangle-61-xeJ.png
+    - assets/patient/images/patientfriendlystatementexample2120-1.png
+    - assets/patient/images/rectangle-61-vRL.png
+    - assets/patient/images/n-eML.png
+    - assets/patient/images/n-bXU.png
+    - assets/patient/images/rectangle-61-ohQ.png
+    - assets/patient/images/n-wYi.png
+    - assets/patient/images/rectangle-61-M3L.png
+    - assets/patient/images/n-WeA.png
+    - assets/patient/images/undrawmedicineb1ol-1.png
+    - assets/patient/images/undrawdoctorkw5l-1-1-hCz.png
+    - assets/patient/images/n-TBC.png
+    - assets/patient/images/n-vva.png
+    - assets/patient/images/rectangle-48.png
+    - assets/patient/images/icon-chevron-down-4wp.png
+    - assets/patient/images/icon-chevron-down-EH4.png
+    - assets/patient/images/icon-chevron-left-GTY.png
+    - assets/doctor/images/icon-doctor-xKx.png
+    - assets/patient/images/icon-chevron-down-x4N.png
+    - assets/patient/images/n-Qgv.png
+    - assets/doctor/images/rectangle-24-S2a.png
+    - assets/patient/images/n-438.png
+    - assets/patient/images/icon-chevron-down-BZY.png
+    - assets/patient/images/icon-chevron-down-6f8.png
+    - assets/patient/images/icon-chevron-down-cdU.png
+    - assets/doctor/images/icon-calendar-check-KLr.png
+    - assets/patient/images/icon-chevron-down-Go8.png
+    - assets/patient/images/icon-chevron-down-u5x.png
+    - assets/patient/images/icon-chevron-down-EFG.png
+    - assets/doctor/images/rectangle-27-esG.png
+    - assets/patient/images/icon-chevron-down-D8J.png
+    - assets/patient/images/icon-chevron-down-WUe.png
+    - assets/doctor/images/icon-chevron-left-SF8.png
+    - assets/doctor/images/icon-calendar-check-7Uz.png
+    - assets/doctor/images/icon-doctor-s5p.png
+    - assets/doctor/images/ellipse-3-bg-Crr.png
+    - assets/doctor/images/rectangle-20.png
+    - assets/doctor/images/rectangle-20-kpv.png
+    - assets/doctor/images/rectangle-20-ziz.png
+    - assets/doctor/images/rectangle-20-mMx.png
+    - assets/doctor/images/rectangle-20-QCW.png
+    - assets/doctor/images/ellipse-3-bg-gte.png
+    - assets/doctor/images/rectangle-20-aAr.png
+    - assets/doctor/images/rectangle-20-1oU.png
+    - assets/doctor/images/rectangle-20-uCz.png
+    - assets/doctor/images/rectangle-20-CbQ.png
+    - assets/doctor/images/icon-chevron-left-8ai.png
+    - assets/doctor/images/icon-chevron-left-Vjc.png
+    - assets/doctor/images/rectangle-20-azr.png
+    - assets/doctor/images/rectangle-20-JLv.png
+    - assets/doctor/images/rectangle-20-jgJ.png
+    - assets/doctor/images/icon-chevron-left-D8A.png
+    - assets/doctor/images/icon-chevron-left-2gW.png
+    - assets/doctor/images/ellipse-3-bg-Y8n.png
+    - assets/doctor/images/rectangle-36-9pi.png
+    - assets/doctor/images/image-1-ykz.png
+    - assets/doctor/images/rectangle-20-n6A.png
+    - assets/doctor/images/icon-chevron-left-8xE.png
+    - assets/doctor/images/n-bg-C9c.png
+    - assets/doctor/images/rectangle-35-uKU.png
+    - assets/doctor/images/rectangle-61-QhU.png
+    - assets/doctor/images/ellipse-3-bg-ocr.png
+    - assets/doctor/images/rectangle-61-wQJ.png
+    - assets/doctor/images/icon-chevron-left-QTx.png
+    - assets/doctor/images/n-wTt.png
+    - assets/doctor/images/n-pna.png
+    - assets/doctor/images/rectangle-61-Gva.png
+    - assets/doctor/images/rectangle-62.png
+    - assets/doctor/images/n-2H4.png
+    - assets/doctor/images/rectangle-62-sF4.png
+    - assets/doctor/images/rectangle-62-tqU.png
+    - assets/Icons/untalangeneralhospital.jpg
+    - assets/Icons/proflie.png
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
