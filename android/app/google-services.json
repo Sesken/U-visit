@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "37292201382",
+    "project_id": "uvisitfinal",
+    "storage_bucket": "uvisitfinal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:37292201382:android:26c9080276fa7e4e742b67",
+        "android_client_info": {
+          "package_name": "com.example.uvisitfinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "37292201382-u8l7sotrldou9br8608dovdl5h9ogjp6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBUIojMD1CfnbRUYl8FCY-zwKvuH3V4IE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "37292201382-u8l7sotrldou9br8608dovdl5h9ogjp6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
